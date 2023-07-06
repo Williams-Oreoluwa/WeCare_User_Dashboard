@@ -1,0 +1,158 @@
+@font-face {
+    font-family: regular;
+    src: url('/FONTS/Montserrat/Montserrat-ExtraLight.ttf');
+}
+*{
+    padding: 0;
+    font-family: regular;
+}
+
+li{
+    list-style: none;
+}
+
+.side-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:url('./Rectangle 43.png');
+    height: 110vh;
+    width: 25%;  
+    display: flex;
+    padding-top: 5rem;
+    justify-content: center;  
+    transition: .5s ease-in-out;
+    padding: 1rem;
+    font-size: .9rem;
+
+}
+.logo{
+    padding-bottom: 2rem;
+}
+
+.nav-btns{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    gap: .5rem;
+    color: #FFFFFF;
+    opacity: 1;
+    
+    cursor: pointer;
+}
+.nav-btns:hover{
+    opacity: .5;
+    
+}
+
+.side-menu ul li{
+    list-style: none;
+}
+.details{
+    position: relative;
+    left: 30%;
+    width:70%;
+ 
+}
+
+.detail-value{
+    position: absolute;
+    left: 5rem;
+    display: grid;
+    place-items: left;
+    padding-top: 2rem;
+}
+.last-input{
+    padding-bottom: 3rem;
+}
+button{
+    width:237% ;
+    height: 35px;
+    background: #552BCC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(155, 155, 155);
+}
+
+input{
+    width: 235%;
+    height: 35px;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    padding-left: .1rem;
+}
+input[type="text"] {
+    text-indent: 1rem;
+    color: black;
+  }
+  input[type="password"] {
+    text-indent: 1rem;
+    color: black;
+  }
+.login-details{
+    width: 100%;
+    position: absolute;
+    left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button-container{
+    padding-bottom: 1rem;
+  }
+
+  .button-wrapper{
+    padding-bottom: 3rem;
+  }
+
+
+  .invite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+  }
+
+@media screen and (max-width:1150px) {
+    .detail-value{
+        position: absolute;
+        left: 4rem;
+        display: grid;
+        place-items: left;
+        padding-top: 2rem;
+    }
+    
+
+    
+}
+
+@media screen and (max-width:1000px) {
+    .side-menu{
+        display: none;
+    }
+
+        .detail-value{
+        position: absolute;
+        left: -10rem;
+        display: grid;
+        place-items: left;
+        padding-top: 2rem;
+    }
+
+    
+
+    
+}
