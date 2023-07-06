@@ -45,7 +45,7 @@ const CreatePassword = () => {
         <div className="side-menu">
           <ul>
             <div className="logo">
-              <img src="./Ellipse 3.png" alt="" />
+              <img src="./Ellipse-3.png" alt="" />
             </div>
             {navs.map((nav, index) => {
               const { value, img, link } = nav;

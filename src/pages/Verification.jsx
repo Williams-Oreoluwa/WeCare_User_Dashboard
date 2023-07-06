@@ -45,7 +45,7 @@ const Verification = () => {
         <div className="side-menu">
           <ul>
             <div className="logo">
-              <img src="./Ellipse 3.png" alt="" />
+              <img src="./Ellipse-3.png" alt="" />
             </div>
             {navs.map((nav, index) => {
               const { value, img, link } = nav;
@@ -102,7 +102,7 @@ const Verification = () => {
                       }}
                     >
                       <img
-                        src="./image 7.png"
+                        src="./image-7.png"
                         alt=""
                         style={{ width: "2rem", height: "2rem" }}
                       />
@@ -129,7 +129,7 @@ const Verification = () => {
                       }}
                     >
                       <img
-                        src="./image 9.png"
+                        src="./image-9.png"
                         alt=""
                         style={{ width: "1.3rem", height: "1.3rem" }}
                       />
@@ -155,7 +155,7 @@ const Verification = () => {
                       }}
                     >
                       <img
-                        src="./image 8.png"
+                        src="./image-8.png"
                         alt=""
                         style={{ width: "2rem", height: "2rem" }}
                       />
